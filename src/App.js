@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/common.scss';
 
-import { Test } from './common/RouteViews';
+import { MainPage } from './common/RouteViews';
 import { Link, Route, Switch } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import ErrorPage from './views/ErrorPage';
@@ -21,7 +21,7 @@ function App() {
         </Navbar>
         <ErrorHandler>
           <Switch>
-            <Route path="/" exact={true} component={Test} />
+            <Route path="/" exact={true} component={MainPage} />
             <Route component={ErrorPage} />
           </Switch>
         </ErrorHandler>
