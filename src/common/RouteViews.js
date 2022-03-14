@@ -3,3 +3,4 @@
 // - 2022-02-15 KIS
 
 export { default as MainPage } from '../views/MainPage';
+export { default as MainPage } from '../views/LoginPage';
